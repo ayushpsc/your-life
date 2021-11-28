@@ -131,7 +131,7 @@
 //         items[k].style.backgroundColor = 'yellow';
 // //       }
 //     }
-//   }
+  }
 
   function _loadStoredValueOfDOB() {
     var DOB = JSON.parse(localStorage.getItem('DOB'));
