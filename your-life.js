@@ -121,9 +121,9 @@
       }
     }
     
-    for (var i = items.length-1; i < items.length+4; i++) {
-//     if (i < number){
-        items[i].style.backgroundColor = 'yellow';
+    for (var k = items.length-1; i < items.length+4; k++) {
+//     if (k < number){
+        items[k].style.backgroundColor = 'yellow';
 //       }
     }
   }
