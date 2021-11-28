@@ -115,7 +115,10 @@
     for (var i = 0; i < items.length; i++) {
       if (i < number) {
         items[i].style.backgroundColor = COLOR;
-      } else {
+      } else if (i>number and i<i+4){
+        items[i].style.backgroundColor = 'yellow';
+      }
+      else {
         items[i].style.backgroundColor = '';
       }
     }
