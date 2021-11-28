@@ -119,14 +119,19 @@
       else {
         items[i].style.backgroundColor = '';
       }
+      
+      items[number].style.backgroundColor = 'yellow';
+      items[number+1].style.backgroundColor = 'yellow';
+      items[number+2].style.backgroundColor = 'yellow';
+      items[number+3].style.backgroundColor = 'yellow';
     }
     
-    for (var k = items.length; k < items.length+4; k++) {
-//     if (k < number){
-        items[k].style.backgroundColor = 'yellow';
-//       }
-    }
-  }
+//     for (var k = items.length; k < items.length+4; k++) {
+// //     if (k < number){
+//         items[k].style.backgroundColor = 'yellow';
+// //       }
+//     }
+//   }
 
   function _loadStoredValueOfDOB() {
     var DOB = JSON.parse(localStorage.getItem('DOB'));
