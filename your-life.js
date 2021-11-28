@@ -121,7 +121,7 @@
       }
     }
     
-    for (var k = items.length-1; i < items.length+4; k++) {
+    for (var k = items.length; k < items.length+4; k++) {
 //     if (k < number){
         items[k].style.backgroundColor = 'yellow';
 //       }
