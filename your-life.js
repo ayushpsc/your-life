@@ -122,9 +122,9 @@
     }
     
     for (var i = items.length-1; i < items.length+4; i++) {
-    if (i < number){
+//     if (i < number){
         items[i].style.backgroundColor = 'yellow';
-      }
+//       }
     }
   }
 
