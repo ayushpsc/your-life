@@ -2,9 +2,9 @@
  * Interactive form and chart events / logic.
  */
 (function () {
-  var yearEl = 1994,
-    monthEl = 10,
-    dayEl = 1994,
+  var yearEl = document.getElementById('year'),
+    monthEl = document.getElementById('month'),
+    dayEl = document.getElementById('day'),
     unitboxEl = document.getElementById('unitbox'),
     unitText = document.querySelector('.unitbox-label').textContent.toLowerCase(),
     items = document.querySelectorAll('.chart li'),
